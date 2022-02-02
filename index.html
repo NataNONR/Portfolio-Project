@@ -34,11 +34,47 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-light py-1"
+      style="background-color: #ddeff0"
+    >
+      <div class="container-fluid px-5">
+        <i class="fas fa-laptop-code"></i>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav px-4">
+            <a class="nav-link active" aria-current="page" href="/index.html">
+              Home
+            </a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/project.html">Project</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <p>Hi! I am</p>
       <h1>Nattha Oroz</h1>
       <h3>Front-end developer based in Europe</h3>
-      <a href="contact.html" class="btn btn-primary p-2 shadow">Contact me</a>
+      <a href="/contact.html" class="btn p-3 shadow fs-5 full-button">
+        Contact Me
+      </a>
     </div>
     <p class="text-center m-5 pt-5">My journey starts with...</p>
     <div class="container">
@@ -52,46 +88,29 @@
         </div>
         <div class="col-sm-6">
           <h3 class="my-5">Gemstone Page</h3>
-          <p>The first project using basic HTML, CSS and Javascript</p>
-          <a
-            href="https://wizardly-kalam-b656e7.netlify.app/"
-            class="btn project-button"
-            target="_blank"
-            role="button"
-          >
-            Go to Page
-          </a>
-          <a
-            href="https://github.com/NataNONR/basicproject"
-            class="btn project-button"
-            target="_blank"
-            role="button"
-            style="margin-left: 10px"
-          >
-            Open-source
+          <p>
+            My first step into coding, I have learned basic knowledge about
+            HTML, CSS and JavaScript. Additionally, I got to know VS code, a
+            handy tool for creating landing pages. JavaScript here transforms a
+            static page into an interactive experience for visitors.
+          </p>
+          <a href="/project.html" class="btn project-button" role="button">
+            Learn More
           </a>
         </div>
       </div>
       <div class="row m-5 gx-5">
         <div class="col-sm-6 text-end">
           <h3 class="my-5">Weather App</h3>
-          <p>A weather forecast page using HTML, CSS, Javascript and API</p>
-          <a
-            href="https://lucid-haibt-0d1e4c.netlify.app/"
-            class="btn project-button"
-            target="_blank"
-            role="button"
-          >
-            Go to Page
-          </a>
-          <a
-            href="https://github.com/NataNONR/weatherapp_lesson"
-            class="btn project-button"
-            target="_blank"
-            role="button"
-            style="margin-left: 10px"
-          >
-            Open-source
+          <p>
+            A weather forecast app written with JavaScript, built on top of the
+            knowledge from my previous project. Bootstrap, APIs, along with
+            Netlify hosting, were also used to create a fully functional weather
+            forecast app that can search for real-time weather information from
+            different locations as well as from the current location.
+          </p>
+          <a href="/project.html" class="btn project-button" role="button">
+            Learn More
           </a>
         </div>
         <div class="col-sm-6 text-center">
