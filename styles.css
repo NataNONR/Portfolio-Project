@@ -1,0 +1,50 @@
+:root {
+  --based-color: #fdf2fb;
+  --highlight-color: #c3d2f4;
+  --default-font: "Ubuntu", sans-serif;
+  --paragraph-font: "Kreon", serif;
+  --playful-font: "Nanum Pen Script", cursive;
+}
+
+body {
+  font-family: var(--default-font);
+}
+
+h1 {
+  font-size: 100px;
+}
+h3 {
+  font-size: 38px;
+}
+p {
+  font-family: var(--paragraph-font);
+  font-size: 20px;
+}
+
+.hero {
+  background-color: var(--based-color);
+  text-align: center;
+  padding: 150px;
+}
+.hero p {
+  font-family: var(--playful-font);
+  font-size: 34px;
+  margin-bottom: 0;
+}
+.hero a {
+  margin-top: 50px;
+}
+.hero h3 {
+  font-size: 24px;
+}
+
+.project-button {
+  margin: 15px 0;
+  background-color: #ebf2ff;
+  border: 2px solid var(--highlight-color);
+}
+.project-button:hover {
+  background: var(--highlight-color);
+  box-shadow: 0 0 14px var(--highlight-color), 0 0 14px var(--highlight-color),
+    0 0 50px var(--highlight-color), 0 0 200px var(--highlight-color);
+}
