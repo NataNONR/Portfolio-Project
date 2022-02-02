@@ -58,7 +58,7 @@ p {
 
 /* About Page */
 .about-section {
-  margin-top: 300px;
+  margin-top: 200px;
   padding: 100px;
 }
 .about-section h4 {
@@ -66,4 +66,16 @@ p {
 }
 .about-section a {
   margin: 20px 0;
+}
+
+/* Project Page */
+.project-content {
+  margin-top: 200px;
+  padding: 100px;
+}
+.project-content h3 {
+  margin-top: 15px;
+}
+.project-content a {
+  margin: 10px 0;
 }
