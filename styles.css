@@ -13,14 +13,21 @@ body {
 h1 {
   font-size: 100px;
 }
+h2 {
+  font-size: 58px;
+}
 h3 {
   font-size: 38px;
 }
+h4 {
+  font-size: 24px;
+}
 p {
   font-family: var(--paragraph-font);
-  font-size: 20px;
+  font-size: 18px;
 }
 
+/* Home Page */
 .hero {
   background-color: var(--based-color);
   text-align: center;
@@ -47,4 +54,16 @@ p {
   background: var(--highlight-color);
   box-shadow: 0 0 14px var(--highlight-color), 0 0 14px var(--highlight-color),
     0 0 50px var(--highlight-color), 0 0 200px var(--highlight-color);
+}
+
+/* About Page */
+.about-section {
+  margin-top: 300px;
+  padding: 100px;
+}
+.about-section h4 {
+  margin: 60px 0;
+}
+.about-section a {
+  margin: 20px 0;
 }
