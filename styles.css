@@ -26,6 +26,9 @@ p {
   font-family: var(--paragraph-font);
   font-size: 18px;
 }
+a {
+  text-decoration: none;
+}
 
 /* Home Page */
 .hero {
@@ -78,4 +81,43 @@ p {
 }
 .project-content a {
   margin: 10px 0;
+}
+
+/* Contact Page */
+.contact-content {
+  margin-top: 30px;
+  padding: 100px;
+}
+.contact-content p {
+  font-family: var(--playful-font);
+}
+.contact-content h2 {
+  margin-bottom: 30px;
+}
+.contact-content h4 {
+  margin-top: 30px;
+}
+/* Typing Effect */
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid orange;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typing 5s steps(35, end) forwards, blink 0.8s infinite;
+}
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
 }
