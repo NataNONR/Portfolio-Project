@@ -28,6 +28,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: #6092ff;
 }
 
 .full-button {
@@ -39,7 +40,7 @@ a {
   font-weight: 400;
 }
 
-/* Home Page */
+/* Home */
 .hero {
   background-color: var(--based-color);
   text-align: center;
@@ -127,5 +128,86 @@ a {
   }
   to {
     border-color: orange;
+  }
+}
+
+/* For smaller devices */
+@media (max-width: 576px) {
+  /* Header */
+  .about-section,
+  .project-content,
+  .contact-content {
+    margin-top: 60px;
+    padding: 30px;
+  }
+
+  /* Paragraph with --playful-font */
+  .hero p,
+  .contact-content p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  /* Home */
+  .hero {
+    padding: 100px 25px;
+  }
+  .hero h3 {
+    font-size: 14px;
+  }
+  .hero h1 {
+    font-size: 42px;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+  .project-button {
+    margin: 15px 0;
+  }
+  .project-list {
+    padding: 0;
+  }
+
+  /* About */
+  .about-section h4 {
+    margin: 20px 0;
+  }
+
+  /* Project Page */
+  .project-content a {
+    margin: 3px 0;
+  }
+
+  /* Contact Page */
+  .contact-content h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .contact-content h2 {
+    margin-bottom: 20px;
+  }
+
+  /* Font Size */
+  .about-section h2,
+  .project-content h2,
+  .contact-content h2 {
+    font-size: 32px;
+  }
+
+  .project-list h3,
+  .project-content h3 {
+    font-size: 30px;
+  }
+
+  .about-section h4,
+  .contact-content h4 {
+    font-size: 18px;
+  }
+
+  .project-list p,
+  .about-section p,
+  .project-content p,
+  .project-button,
+  .contact-content a {
+    font-size: 14px;
   }
 }
