@@ -210,4 +210,8 @@ a {
   .contact-content a {
     font-size: 14px;
   }
+
+  .page-footer {
+    font-size: 11px;
+  }
 }
